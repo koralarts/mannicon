@@ -85,6 +85,15 @@ section a {
     margin-bottom: 20px;
 }
 
+.usage > code {
+    border: 1px solid #aaa;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    background-color: #ddd;
+}
+
 .icons > div {
     margin-bottom: 5px;
     float: left;
