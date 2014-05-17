@@ -1,0 +1,35 @@
+/*
+  Icons that will be used
+*/
+
+.tf {
+    display: inline-block;
+    font-family: 'Mann-Icon';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.tf-tf2-logo:before { content: $tf-var-tf2-logo; }
+.tf-spy-circle:before { content: $tf-var-spy-circle; }
+.tf-spy:before { content: $tf-var-spy; }
+.tf-soldier-circle:before { content: $tf-var-soldier-circle; }
+.tf-soldier:before { content: $tf-var-soldier; }
+.tf-sniper-circle:before { content: $tf-var-sniper-circle; }
+.tf-sniper:before { content: $tf-var-sniper; }
+.tf-scout-circle:before { content: $tf-var-scout-circle; }
+.tf-scout:before { content: $tf-var-scout; }
+.tf-pyro-circle:before { content: $tf-var-pyro-circle; }
+.tf-pyro:before { content: $tf-var-pyro; }
+.tf-medic-circle:before { content: $tf-var-medic-circle; }
+.tf-medic:before { content: $tf-var-medic; }
+.tf-heavy-no-arrow:before { content: $tf-var-heavy-no-arrow; }
+.tf-heavy-circle-no-arrow:before { content: $tf-var-heavy-circle-no-arrow; }
+.tf-heavy-circle:before { content: $tf-var-heavy-circle; }
+.tf-heavy:before { content: $tf-var-heavy; }
+.tf-engineer-circle:before { content: $tf-var-engineer-circle; }
+.tf-engineer:before { content: $tf-var-engineer; }
+.tf-demo-circle:before { content: $tf-var-demo-circle; }
+.tf-demo:before { content: $tf-var-demo; }

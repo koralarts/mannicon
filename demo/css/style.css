@@ -1,0 +1,122 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+	color: #555;
+	background: #fff;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+a {
+    -moz-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+	color: #252525;
+	text-decoration: none;
+}
+
+header,
+section,
+nav,
+footer {
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    font-size: 4em;
+}
+
+header > h1 {
+    margin: 10px 0;
+}
+
+.nav-wrapper {
+    background-color: #ccc;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 5px 20px;
+}
+
+nav > ul > li > a:hover {
+    color: #fefefe;
+    background-color: #555;
+}
+
+section {
+    clear: both;
+    position: relative;
+}
+
+footer a,
+section a {
+    text-decoration: underline;
+}
+
+.disclaimer {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 0.75em;
+    background-color: #f99;
+    border: 1px solid #f55;
+    margin-bottom: 20px;
+}
+
+.icons > div {
+    margin-bottom: 5px;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.icons span {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+
+.icons span:hover {
+    background-color: #eee;
+}
+
+.icons .tf {
+    font-size: 3em;
+    margin-right: 10px;
+    -moz-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.icons span:hover .tf {
+    color: #F55;
+}
+
+.license {
+    margin: 10px auto;
+}
