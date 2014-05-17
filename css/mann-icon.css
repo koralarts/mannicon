@@ -6,3 +6,88 @@
   List of variables
 */
 /** Icons */
+/* 
+  Import the fonts for use
+*/
+@font-face {
+  font-family: 'Mann-Icon';
+  src: url('@{$tf-font-path}/Mann-Icon.eot?px5wl5');
+  src: url('@{$tf-font-path}/Mann-Icon.eot?#iefixpx5wl5') format('embedded-opentype'), url('@{$tf-font-path}/Mann-Icon.woff?px5wl5') format('woff'), url('@{$tf-font-path}/Mann-Icon.ttf?px5wl5') format('truetype'), url('@{$tf-font-path}/Mann-Icon.svg?px5wl5#Mann-Icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ Icons that will be used
+*/
+.tf {
+  display: inline-block;
+  font-family: 'Mann-Icon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.tf-tf2-logo:before {
+  content: '\e600';
+}
+.tf-spy-circle:before {
+  content: '\e601';
+}
+.tf-spy:before {
+  content: '\e602';
+}
+.tf-soldier-circle:before {
+  content: '\e603';
+}
+.tf-soldier:before {
+  content: '\e604';
+}
+.tf-sniper-circle:before {
+  content: '\e605';
+}
+.tf-sniper:before {
+  content: '\e606';
+}
+.tf-scout-circle:before {
+  content: '\e607';
+}
+.tf-scout:before {
+  content: '\e608';
+}
+.tf-pyro-circle:before {
+  content: '\e609';
+}
+.tf-pyro:before {
+  content: '\e60a';
+}
+.tf-medic-circle:before {
+  content: '\e60b';
+}
+.tf-medic:before {
+  content: '\e60c';
+}
+.tf-heavy-no-arrow:before {
+  content: '\e60d';
+}
+.tf-heavy-circle-no-arrow:before {
+  content: '\e60e';
+}
+.tf-heavy-circle:before {
+  content: '\e60f';
+}
+.tf-heavy:before {
+  content: '\e610';
+}
+.tf-engineer-circle:before {
+  content: '\e611';
+}
+.tf-engineer:before {
+  content: '\e612';
+}
+.tf-demo-circle:before {
+  content: '\e613';
+}
+.tf-demo:before {
+  content: '\e614';
+}
